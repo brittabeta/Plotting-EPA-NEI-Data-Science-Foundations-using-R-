@@ -24,26 +24,3 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 * Question 4: Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
 * Question 5: How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
 * Question 6: Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
-
-### Additional EDA
-* See: .png and .R files for assignment completion
-
-#### Question 1
-Amount PM2.5 decreased from 1999 to 2008
-```
-pmyear <- with(NEI, tapply(Emissions, year, sum))
-pmat <- as.matrix(pmyear)
-diff <- pmat[1] - pmat[4]
-diff
-[1] 3868761
-```
-
-#### Question 2
-
-#### Question 3
-
-#### Question 4
-
-#### Question 5
-
-#### Question 6
