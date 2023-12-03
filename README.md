@@ -30,11 +30,11 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 
 #### Question 1
 Amount PM2.5 decreased from 1999 to 2008
-`R
-> pmyear <- with(NEI, tapply(Emissions, year, sum))
-> pmat <- as.matrix(pmyear)
-> diff <- pmat[1] - pmat[4]
-> diff
+`
+pmyear <- with(NEI, tapply(Emissions, year, sum))
+pmat <- as.matrix(pmyear)
+diff <- pmat[1] - pmat[4]
+diff
 [1] 3868761
 `
 
