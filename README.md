@@ -17,7 +17,7 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 * year: The year of emissions recorded
 
 ### Assignment
-* Goal: address the following questions with a graph as specified, create a .png file and .R file that correspond with each question named as plot#.<png/R>
+* Goal: address the following questions with a graph as specified, create a .png file and .R file that correspond with each question named as plot_#.<png/R>
 * Question 1: Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 * Question 2: Have total emissions from PM2.5 decreased in Baltimore City, Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
 * Question 3: Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot to answer this question.
